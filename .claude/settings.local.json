@@ -5,7 +5,26 @@
       "Bash(python -c ':*)",
       "Bash(pip install:*)",
       "Bash(python -m pytest tests/test_action_steps.py -v)",
-      "Bash(python -m pytest tests/ -v)"
+      "Bash(python -m pytest tests/ -v)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(.venv/bin/pip install:*)",
+      "Bash(conda info:*)",
+      "Read(//opt/conda/**)",
+      "Bash(/home/val/miniconda3/envs/airteam/bin/pip show:*)",
+      "Bash(/home/val/miniconda3/envs/airteam/bin/python:*)",
+      "Bash(/home/val/miniconda3/envs/airteam/bin/pip install:*)",
+      "Bash(wait)",
+      "Bash(pip index:*)",
+      "Bash(pip show:*)",
+      "Bash(docker compose up:*)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(docker compose:*)",
+      "Bash(pytest tests/integration/test_approval_flow.py -v)",
+      "Bash(conda run:*)",
+      "Bash(/home/val/miniconda3/envs/py314/bin/pip install:*)",
+      "Bash(/home/val/miniconda3/envs/py314/bin/pytest:*)"
     ]
   }
 }
