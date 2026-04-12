@@ -3,7 +3,9 @@
     "allow": [
       "WebSearch",
       "Bash(python -c ':*)",
-      "Bash(pip install:*)"
+      "Bash(pip install:*)",
+      "Bash(python -m pytest tests/test_action_steps.py -v)",
+      "Bash(python -m pytest tests/ -v)"
     ]
   }
 }
