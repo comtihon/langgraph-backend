@@ -24,7 +24,8 @@
       "Bash(pytest tests/integration/test_approval_flow.py -v)",
       "Bash(conda run:*)",
       "Bash(/home/val/miniconda3/envs/py314/bin/pip install:*)",
-      "Bash(/home/val/miniconda3/envs/py314/bin/pytest:*)"
+      "Bash(/home/val/miniconda3/envs/py314/bin/pytest:*)",
+      "Bash(grep:*)"
     ]
   }
 }
