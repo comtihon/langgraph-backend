@@ -25,7 +25,11 @@
       "Bash(conda run:*)",
       "Bash(/home/val/miniconda3/envs/py314/bin/pip install:*)",
       "Bash(/home/val/miniconda3/envs/py314/bin/pytest:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(docker --version)",
+      "Bash(nc -z localhost 27017)",
+      "Bash(echo \"mongo reachable: $?\")"
     ]
   }
 }
